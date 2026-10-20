@@ -1,0 +1,21 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vercel/
+
+# Original training inputs; keep source data out of Git
+/A_매출비교/
+/B_팝업오픈/
+/C_행사준비/
+/D_화면과연결/
+/E_짧은연습/
+/연습_간식룰렛/

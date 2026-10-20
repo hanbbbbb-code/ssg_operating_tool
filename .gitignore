@@ -19,3 +19,8 @@ dist/
 /D_화면과연결/
 /E_짧은연습/
 /연습_간식룰렛/
+
+# Local datasets and generated verification reports
+/dashboard/public/data/
+/results/
+.DS_Store

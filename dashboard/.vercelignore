@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules
+dist
+.git
+.vercel
+results
+*.swp
+*.swo
+*.log
+.DS_Store
+*.pem
+*.key

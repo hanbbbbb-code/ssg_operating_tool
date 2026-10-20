@@ -1,3 +1,24 @@
 node_modules/
 dist/
 .vercel/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.swp
+*.swo
+*.log
+.DS_Store
+results/
+
+# Only these reviewed educational fixtures may be public.
+public/*
+!public/data/
+public/data/*
+!public/data/sales-store.xlsx
+!public/data/sales-online.xlsx
+!public/data/sales-popup.xlsx
+!public/data/report-template.xlsx
+!public/data/event-preparation.csv
+!public/data/weather-sample.json

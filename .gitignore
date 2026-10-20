@@ -21,6 +21,9 @@ dist/
 /연습_간식룰렛/
 
 # Local datasets and generated verification reports
-/dashboard/public/data/
+# Public fictional files are allowlisted in dashboard/.gitignore
 /results/
 .DS_Store
+
+# Sites managed source checkout (separate private repository)
+/sites/

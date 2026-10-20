@@ -1,0 +1,3 @@
+# Preserve reviewed fixture bytes across platforms, including CSV CRLF and BOM.
+public/data/* -text
+public/data/*.csv whitespace=cr-at-eol
